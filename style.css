@@ -1,0 +1,32 @@
+.pro {
+  display: grid;
+  gap: 15px;
+  grid-template-rows: 100px 400px 100px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.items {
+  border: 3px solid limegreen;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 {
+  grid-area: 1/1/2/-1;
+}
+
+.item2 {
+  grid-area: 2/1/3/2;
+}
+
+.item3 {
+  grid-area: 2/2/3/12;
+}
+.item4 {
+  grid-area: 2/12/-1/-1;
+}
+.item5 {
+  grid-area: 3/1/-1/12;
+}
